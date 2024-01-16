@@ -1,0 +1,38 @@
+* {
+    font-family: 'Inter';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: content;
+    justify-content: space-between;
+}
+
+.left-col {
+    margin: 20px;
+}
+
+.left-col form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .8em;
+}
+
+.left-col input {
+    height: 40px;
+    font-size: 32px;
+}
+
+.left-col textarea {
+    resize: none;
+}
+
+.right-col {
+
+}
