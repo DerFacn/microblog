@@ -11,6 +11,8 @@ body {
     display: flex;
     align-items: content;
     justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .left-col {
@@ -34,5 +36,15 @@ body {
 }
 
 .right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 1em;
+}
 
+.right-col .post {
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 20px;
 }
